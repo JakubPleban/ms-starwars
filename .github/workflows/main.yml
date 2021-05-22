@@ -63,8 +63,8 @@ jobs:
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@v1.6
         env:
-          GITHUB_TOKEN: ${{ secrets:G_SECRET }}
-          SONAR_TOKEN: ${{ secrets:S_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.G_SECRET }}
+          SONAR_TOKEN: ${{ secrets.S_TOKEN }}
         with:
           args: >
             -Dsonar.organization=jakubpleban
