@@ -89,4 +89,4 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: wisit23308.jfrog.io/default-docker-local/master:latest
+          tags: wisit23308.jfrog.io/default-docker-local/test:latest
